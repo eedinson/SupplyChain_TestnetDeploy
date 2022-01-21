@@ -36,7 +36,7 @@
   <h3 align="center">SupplyChain_TestnetDeploy</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Ethereum blockchain for supply chain tracking deployed on Ropsten Testnet
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -122,12 +122,29 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites for Ubuntu 18.04.6 LTS
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* npm version 3.5.2
   ```sh
-  npm install npm@latest -g
+  sudo npm install -g npm@3.5.2
+  ```
+* nvm version 0.38.0
+  ```sh
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  ```
+  
+* node version 8.10.0
+  ```sh
+  sudo apt remove -y nodejs
+  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  nvm install 8.10.0
+  nvm use 8.10.0
+  ```
+  ```sh
+  node -v
+  v.8.10.0
   ```
 
 ### Installation
