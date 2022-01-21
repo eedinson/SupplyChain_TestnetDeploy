@@ -125,27 +125,42 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites for Ubuntu 18.04.6 LTS
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm version 3.5.2
-  ```sh
-  sudo npm install -g npm@3.5.2
-  ```
+
 * nvm version 0.38.0
   ```sh
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
   ```
   
-* node version 8.10.0
+* node version 8.12.0
   ```sh
   sudo apt remove -y nodejs
   curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
   sudo apt-get install -y nodejs
-  nvm install 8.10.0
-  nvm use 8.10.0
+  nvm install 8.12.0
+  nvm use 8.12.0
   ```
   ```sh
   node -v
-  v.8.10.0
+  v8.12.0
   ```
+  ```sh
+  npm -v
+  6.4.1
+  ```
+* npm version 6.4.1 (if not already installed)
+  ```sh
+  sudo npm install -g npm@6.4.1
+  ```
+* truffle
+  ```sh
+  sudo npm i -g truffle
+  ```
+* Ganache
+  [Ganache](https://trufflesuite.com/ganache/)
+  * Ganache-cli (for terminal interaction)
+    ```sh
+    sudo npm install -g ganache-cli
+    ```
 
 ### Installation
 
