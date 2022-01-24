@@ -145,12 +145,12 @@ This is an example of how to list things you need to use the software and how to
   ```
   ```sh
   node -v
-  v8.12.0
   ```
+  v8.12.0
   ```sh
   npm -v
-  6.4.1
   ```
+  6.4.1
 * npm version 6.4.1 (if not already installed)
   ```sh
   sudo npm install -g npm@6.4.1
