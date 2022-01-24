@@ -187,9 +187,14 @@ _Below is a list of smart contract development procedures with specific informat
 
 
 <!-- USAGE EXAMPLES -->
-## Usage of the smart contract part 1 - Build version
+## Usage of the smart contract - Build version
 
-Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
+Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt. Dabei werden beispielhaft folgende Metamask Account addressen genutzt:
+   ```sh
+   Supplier:          0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
+   DeliveryCompany:   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
+   Customer:          0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   ```
 
 1. Use the final Solidity code with the correct pragma line in Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
 
@@ -211,9 +216,9 @@ Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
 ![createOrder][createOrder]
 
-5. Check that the order was created and verify the contract functionality
-   Wait for Metamask to confirm the transaction (check if the debug notification is green)
-   Check getOrder functionality and search for orders by index (if you only created one order, the index is 0)
+5. Check that the order was created and verify the contract functionality<br />
+   Wait for Metamask to confirm the transaction (check if the debug notification is green)<br />
+   Check getOrder functionality and search for orders by index (if you only created one order, the index is 0)<br />
    Verify that you can see the information entered when creating the order, also verify and copy the transaction hash from the debug notification
 
 ![verifyTransaction][verifyTransaction]
@@ -222,7 +227,18 @@ Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
 ![etherscan][etherscan]
 
+7. View the transaction details of the transaction hash and click on the contract address
 
+![etherscanTxDetails][etherscanTxDetails]
+
+8. View the contract details and the contract transactions
+
+![contractTxDetails][contractTxDetails]
+
+9. Read contract informations<br />
+   From here you can read out all transaction information of the smart contract. All transaction information is transparent, publicly available and secured by decentralized storage, but transaction participants are anonymous due to the cryptographic principles of the blockchain.
+
+![readContractInformations][readContractInformations]
 
 
 _For further explanations on the use of the smart contract, please refer to the relevant publication [Paper](https://example.com)_
@@ -325,4 +341,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [createOrder]: images/createOrder.png
 [verifyTransaction]: images/verifyTransaction.png
 [etherscan]: images/etherscan.png
-
+[etherscanTxDetails]: images/etherscanTxDetails.png
+[contractTxDetails]: images/contractTxDetails.png
+[readContractInformations]: images/readContractInformations.png
