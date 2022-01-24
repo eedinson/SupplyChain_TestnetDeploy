@@ -3,13 +3,10 @@
 ## v1.0.0
 
 ### Added or Changed
-- Added this changelog :)
-- Fixed typos in both templates
-- Back to top links
-- Added more "Built With" frameworks/libraries
-- Changed table of contents to start collapsed
-- Added checkboxes for major features on roadmap
+- Added this changelog
+- Added Solidity files
+- Added Readme, optimzed it
 
 ### Removed
 
-- Some packages/libraries from acknowledgements I no longer use
+- Some files/images I no longer use
