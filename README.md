@@ -203,10 +203,10 @@ Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
 ![setMetamaskAccount][setMetamaskAccount]
 
-4. Deploy the smart contract via Metamask and create an order
-   Enter the order details for Title and Description
-   Select a second address in your Metamask account for the delivery company and a third account address for the customer
-   Click Transact and wait for the Metamask notification
+4. Deploy the smart contract via Metamask and create an order<br />
+   Enter the order details for Title and Description<br />
+   Select a second address in your Metamask account for the delivery company and a third account address for the customer<br />
+   Click Transact and wait for the Metamask notification<br />
    Confirm the transaction in Metamask
 
 ![createOrder][createOrder]
