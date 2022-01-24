@@ -162,22 +162,24 @@ This is an example of how to list things you need to use the software and how to
     sudo npm install -g ganache-cli
     ```
 
-### Installation
+### Smart contract
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is a list of smart contract development procedures with specific information to consider.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Start programming the smart contract in Solidity with Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
+2. Create a contract file
+    AMChain.sol
+3. Use specific pragma
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   pragma solidity ^0.4.25;
    ```
-3. Install NPM packages
+4. Version of a deployable smart contract for Ropsten without helper functions (Build version) `SupplyChain_deployedRopsten_build.sol`
    ```sh
-   npm install
+   Build contract address: 0x2aeCF4dDb24BbDb8b48b6ee906c125E5573BBc9C
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+6. Version of a deployable smart contract for Ropsten with helper functions for testing (Test version) `SupplyChain_deployedRopsten_test.sol`
+   ```sh
+   Test contract address: 0xdeC79E73f2955b4ec5e1b1b7Ca758088bf82631a
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -185,11 +187,13 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Usage of the smart contract part 1 - Build version
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. Use the final Solidity code with the correct pragma line in Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
+
+_For further explanations on the use of the smart contract, please refer to the relevant publication [Paper](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
