@@ -183,9 +183,9 @@ _Below is a list of smart contract development procedures with specific informat
 
 
 <!-- USAGE EXAMPLES -->
-## Usage of the smart contract - Build version
+## Usage
 
-The use of the smart contract is explained in detail below. The following metamask account addresses are used as an example:
+The use of the smart contract build version is explained in detail below. The following metamask account addresses are used as an example:
    ```sh
    Supplier:          0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
    DeliveryCompany:   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
