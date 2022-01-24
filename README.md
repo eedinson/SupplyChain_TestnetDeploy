@@ -82,7 +82,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![contractTxDetails][contractTxDetails]
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -130,9 +130,17 @@ This is an example of how to list things you need to use the software and how to
 * node version 8.12.0
   ```sh
   sudo apt remove -y nodejs
+  ```
+  ```sh
   curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+  ```
+  ```sh
   sudo apt-get install -y nodejs
+  ```
+  ```sh
   nvm install 8.12.0
+  ```
+  ```sh
   nvm use 8.12.0
   ```
   ```sh
@@ -169,13 +177,15 @@ _Below is a list of smart contract development procedures with specific informat
    ```sh
    pragma solidity ^0.4.25;
    ```
-4. Version of a deployable smart contract for Ropsten without helper functions (Build version) `SupplyChain_deployedRopsten_build.sol`
+4. Version of a deployable smart contract for Ropsten without helper functions (Build version) `SupplyChain_deployedRopstenBuild.sol`<br />
+   Build contract address:
    ```sh
-   Build contract address: 0x2aeCF4dDb24BbDb8b48b6ee906c125E5573BBc9C
+   0x2aeCF4dDb24BbDb8b48b6ee906c125E5573BBc9C
    ```
-6. Version of a deployable smart contract for Ropsten with helper functions for testing (Test version) `SupplyChain_deployedRopsten_test.sol`
+6. Version of a deployable smart contract for Ropsten with helper functions for testing (Test version) `SupplyChain_deployedRopsten>Test.sol`<br />
+   Test contract address:
    ```sh
-   Test contract address: 0xdeC79E73f2955b4ec5e1b1b7Ca758088bf82631a
+   0xdeC79E73f2955b4ec5e1b1b7Ca758088bf82631a
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -185,11 +195,18 @@ _Below is a list of smart contract development procedures with specific informat
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The use of the smart contract build version is explained in detail below. The following metamask account addresses are used as an example:
+The use of the smart contract build version is explained in detail below. The following metamask account addresses are used as an example:<br />
+Supplier:
    ```sh
-   Supplier:          0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
-   DeliveryCompany:   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
-   Customer:          0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
+   0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
+   ```
+DeliveryCompany:
+   ```sh
+   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
+   ```
+Customer:
+   ```sh
+   0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
    ```
 
 1. Use the final Solidity code with the correct pragma line in Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
