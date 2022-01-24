@@ -195,6 +195,36 @@ Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
 ![pragma][pragma]
 
+2. Set the correct Solidity compiler settings
+
+![compilerSettings][compilerSettings]
+
+3. Set Meatamask as the environment provider and select an account for the Supplier
+
+![setMetamaskAccount][setMetamaskAccount]
+
+4. Deploy the smart contract via Metamask and create an order
+   Enter the order details for Title and Description
+   Select a second address in your Metamask account for the delivery company and a third account address for the customer
+   Click Transact and wait for the Metamask notification
+   Confirm the transaction in Metamask
+
+![createOrder][createOrder]
+
+5. Check that the order was created and verify the contract functionality
+   Wait for Metamask to confirm the transaction (check if the debug notification is green)
+   Check getOrder functionality and search for orders by index (if you only created one order, the index is 0)
+   Verify that you can see the information entered when creating the order, also verify and copy the transaction hash from the debug notification
+
+![verifyTransaction][verifyTransaction]
+
+6. Search for the smart contract in Ropsten Etherscan [https://ropsten.etherscan.io/](https://ropsten.etherscan.io/)
+
+![etherscan][etherscan]
+
+
+
+
 _For further explanations on the use of the smart contract, please refer to the relevant publication [Paper](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -290,6 +320,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [pragma]: images/pragma.png
-
-
+[compilerSettings]: images/compilerSettings.png
+[setMetamaskAccount]: images/setMetamaskAccount.png
+[createOrder]: images/createOrder.png
+[verifyTransaction]: images/verifyTransaction.png
+[etherscan]: images/etherscan.png
 
