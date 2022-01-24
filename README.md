@@ -196,6 +196,8 @@ _Below is a list of smart contract development procedures with specific informat
 ## Usage
 
 The use of the smart contract build version is explained in detail below. The following metamask account addresses are used as an example:<br />
+
+
 Supplier:
    ```sh
    0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
@@ -208,6 +210,8 @@ Customer:
    ```sh
    0x5c6743508a15829E7bcb0484AFEfB07f88BA6Ce5
    ```
+
+
 
 1. Use the final Solidity code with the correct pragma line in Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
 
