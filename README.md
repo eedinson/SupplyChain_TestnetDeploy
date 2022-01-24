@@ -101,16 +101,12 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section list any major frameworks/libraries used to bootstrap the project.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Solidity](https://docs.soliditylang.org/en/v0.8.11/)
+* [Remix](http://remix.ethereum.org/)
+* [Ropsten Etherscan](https://ropsten.etherscan.io/)
+* [Metamask](https://metamask.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -119,7 +115,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
+This is an example of how to set up the project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites for Ubuntu 18.04.6 LTS
@@ -189,7 +185,7 @@ _Below is a list of smart contract development procedures with specific informat
 <!-- USAGE EXAMPLES -->
 ## Usage of the smart contract - Build version
 
-Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt. Dabei werden beispielhaft folgende Metamask Account addressen genutzt:
+The use of the smart contract is explained in detail below. The following metamask account addresses are used as an example:
    ```sh
    Supplier:          0xebdc7eAdBCc95aa5911A571cC589B0A42119D5dD
    DeliveryCompany:   0xA4084Fc2FeCBC4E20BaA2b5FA9Af3f5C72906536
@@ -250,15 +246,15 @@ _For further explanations on the use of the smart contract, please refer to the 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Develop a smart contract
+- [x] Deploy and publish the smart contract
+- [ ] Add Backend functionality
+- [ ] Write tests for the smart contract
+- [ ] Add Frontend functionality
+    - [ ] optimize everything
+    - [ ] add additional functions
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/eedinson/SupplyChain_TestnetDeploy/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -294,9 +290,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Erik Westphal - [@LinkedIn](https://linkedin.com/in/erik-westphal-706a35223) - erik.westphal@uni-rostock.de
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/eedinson/SupplyChain_TestnetDeploy](https://github.com/eedinson/SupplyChain_TestnetDeploy)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -308,13 +304,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [GitHub othneildrew Best-README-Template ](https://github.com/othneildrew/Best-README-Template)
+* [Alexander Pliskin - How To Create Supply Chain dApp For Order Accounting](https://www.youtube.com/watch?v=lXWlJIvGRMk&list=PLQbzkJk10-f5jfVIhDh9QLcbSEA8JiA_j&index=1)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
