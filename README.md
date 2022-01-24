@@ -334,11 +334,11 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/eedinson/SupplyChain_TestnetDeploy?style=plastic
 [forks-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/eedinson/SupplyChain_TestnetDeploy?style=for-the-badge
 [issues-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/blob/master/LICENSE.txt
