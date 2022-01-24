@@ -38,14 +38,14 @@
   <p align="center">
     Ethereum blockchain for supply chain tracking deployed on Ropsten Testnet
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/eedinson/SupplyChain_TestnetDeploy/issues">Request Feature</a>
   </p>
 </div>
 
