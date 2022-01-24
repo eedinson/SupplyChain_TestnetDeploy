@@ -193,7 +193,7 @@ Nachfolgend wird die Nutzung des Smart contracts detailliert erklärt.
 
 1. Use the final Solidity code with the correct pragma line in Remix [http://remix.ethereum.org/](http://remix.ethereum.org/)
 
-[pragma]: images/pragma.png
+[![pragma][pragma]]
 
 _For further explanations on the use of the smart contract, please refer to the relevant publication [Paper](https://example.com)_
 
