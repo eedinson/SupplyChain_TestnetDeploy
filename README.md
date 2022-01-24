@@ -332,18 +332,18 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/eedinson/SupplyChain_TestnetDeploy.svg?style=plastic
 [contributors-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/eedinson/SupplyChain_TestnetDeploy?style=plastic
 [forks-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/eedinson/SupplyChain_TestnetDeploy?style=plastic
 [stars-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/stargazers
-[issues-shield]: https://img.shields.io/github/issues/eedinson/SupplyChain_TestnetDeploy?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/eedinson/SupplyChain_TestnetDeploy?style=plastic
 [issues-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/eedinson/SupplyChain_TestnetDeploy
 [license-url]: https://github.com/eedinson/SupplyChain_TestnetDeploy/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=plastic&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/eedinson
 [product-screenshot]: images/screenshot.png
 [pragma]: images/pragma.png
 [compilerSettings]: images/compilerSettings.png
