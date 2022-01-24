@@ -182,7 +182,7 @@ _Below is a list of smart contract development procedures with specific informat
    ```sh
    0x2aeCF4dDb24BbDb8b48b6ee906c125E5573BBc9C
    ```
-6. Version of a deployable smart contract for Ropsten with helper functions for testing (Test version) `SupplyChain_deployedRopsten>Test.sol`<br />
+6. Version of a deployable smart contract for Ropsten with helper functions for testing (Test version) `SupplyChain_deployedRopstenTest.sol`<br />
    Test contract address:
    ```sh
    0xdeC79E73f2955b4ec5e1b1b7Ca758088bf82631a
